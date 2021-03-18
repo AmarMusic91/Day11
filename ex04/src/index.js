@@ -1,5 +1,5 @@
 var monitorsListArray = ["Apple", "Peach", "Berry"];
-function myMonitorFunction(arr) {
+function myMonitorsFunction(arr) {
     var newMonitorsList = [...arr];
     var monitorsList = [];
 for (var i = 0; i <=2; i++) {
@@ -7,5 +7,5 @@ for (var i = 0; i <=2; i++) {
 }
 return monitorsList;
 }
-console.log(myMonitorFunction(monitorsListArray));
-module.exports = myMonitorFunction;
+console.log(myMonitorsFunction(monitorsListArray));
+module.exports = myMonitorsFunction;
