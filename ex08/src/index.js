@@ -8,9 +8,7 @@ function myMutation(arr) {
     }
     return true;
   }
-  
-  // Only change code above this line
-  //myMutation(["hello", "hey"]);
+
   console.log(myMutation(["hello", "hey"]));
   console.log(myMutation(["hello", "Hello"]));
   console.log(myMutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]));

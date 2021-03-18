@@ -7,8 +7,6 @@ function mySplice(arr1, arr2, n) {
       myNewArr.splice(n, 0, ...myInvArr);
     return myNewArr;
   }
-  // Only change code above this line
-  
   console.log(mySplice([1, 2, 3], [4, 5], 1));
   console.log(mySplice([1, 2, 3], [4, 5], 2));
   console.log(mySplice(["b", "c"], ["a", "d"], 1));
